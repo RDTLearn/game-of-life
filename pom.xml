@@ -433,6 +433,7 @@
                 </plugins>
             </build>
             <reporting>
+                <outputDirectory>${basedir}/target/site</outputDirectory>
                 <plugins>
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
